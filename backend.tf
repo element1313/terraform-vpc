@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "terraform-class-june-shokhrukh2"
+        bucket = "shokhrukh-element13"
         key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
